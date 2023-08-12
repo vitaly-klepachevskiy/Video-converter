@@ -1,0 +1,25 @@
+{
+  "name": "video-converter",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaly-klepachevskiy/Video-converter.git"
+  },
+  "author": "Vitaly Kepachevskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitaly-klepachevskiy/Video-converter/issues"
+  },
+  "homepage": "https://github.com/vitaly-klepachevskiy/Video-converter#readme",
+  "dependencies": {
+    "inquirer": "^9.2.10"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
