@@ -1,25 +1,18 @@
 {
-  "name": "video-converter",
+  "name": "command-executer",
   "version": "1.0.0",
-  "description": " ",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vitaly-klepachevskiy/Video-converter.git"
-  },
-  "author": "Vitaly Kepachevskiy",
+  "author": "Vitaly Klepachevskiy",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vitaly-klepachevskiy/Video-converter/issues"
-  },
-  "homepage": "https://github.com/vitaly-klepachevskiy/Video-converter#readme",
   "dependencies": {
-    "inquirer": "^9.2.10"
+    "inquirer": "^8.2.0"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.3"
+    "@types/inquirer": "^8.2.0",
+    "@types/node": "^17.0.14"
   }
 }
