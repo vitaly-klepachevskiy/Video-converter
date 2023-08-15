@@ -1,6 +1,6 @@
 import { IStreamLogger } from '../../core/handlers/stream-logger.interface';
 
-class ConsoleLogger implements IStreamLogger {
+export class ConsoleLogger implements IStreamLogger {
   private static logger: ConsoleLogger;
 
   public static getInstance() {
@@ -9,10 +9,6 @@ class ConsoleLogger implements IStreamLogger {
     }
     return ConsoleLogger.logger;
   }
-
-  //   constructor() {
-  //     ConsoleLogger .logger = this;
-  //   }
 
   log(...args: any): void {
     console.log(args);
